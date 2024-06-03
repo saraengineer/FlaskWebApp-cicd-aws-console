@@ -9,7 +9,7 @@ class Config:
 
     @staticmethod
     def get_secret():
-        secret_name = "rds!cluster-ca2c1367-4174-425c-956f-fc2dadb5c8b0"
+        secret_name = "yousecret"
         region_name = "eu-west-3"
 
         # Create a Secrets Manager client
@@ -30,7 +30,7 @@ class Config:
         secret_dict = json.loads(secret)
         db_username = secret_dict['username']
         db_password = secret_dict['password']
-        db_host = "mydb-instance-1.crgiuceq6r4n.eu-west-3.rds.amazonaws.com"
+        db_host = "yourHostDb"
         db_name = "mydb"
         return db_username, db_password, db_host, db_name
         print(db_name)
