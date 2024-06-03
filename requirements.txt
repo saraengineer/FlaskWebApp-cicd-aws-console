@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Login
+boto3
+psycopg2-binary
+Werkzeug
