@@ -4,4 +4,4 @@ How to automate the deployment of a web application made with flask framework us
 
 ![Architecture-codepipeline-elasticbeanstalk(2)](https://github.com/saraengineer/FlaskWebApp-cicd-AWS/assets/20047882/62b4a21b-2d26-4b82-b528-0c3a52c927f3)
 
-To see more details, read my article.
+To see more details, [read my article](https://medium.com/@mengineer/learning-aws-codepipeline-hands-on-learning-part2-59c2b1b5a6e1).
